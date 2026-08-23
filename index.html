@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Disha Singh — Data Scientist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="sky"></canvas>
+<div class="space-photo" id="spacePhoto"></div>
+<div class="space-scrim"></div>
+<div class="grain"></div>
+
+<nav>
+  <div class="logo">disha<span>.</span>singh</div>
+  <div class="nav-links" id="navLinks"></div>
+</nav>
+
+<main>
+
+  <section class="hero">
+    <!-- <div class="hero-status" id="heroStatus"><span class="pulse-dot"></span><span id="heroStatusText"></span></div> -->
+    <div class="eyebrow mono" id="heroEyebrow"></div>
+    <h1 id="heroName"></h1>
+    <p class="tagline" id="heroTagline"></p>
+    <div class="scroll-cue">
+      <span>SCROLL</span>
+      <div class="line"></div>
+    </div>
+  </section>
+
+  <!-- Every section below is filled in by content.js + app.js at load time.
+       To change what's on the page, edit content.js — not this file. -->
+
+  <section id="about">
+    <div class="section-head" id="about-head"></div>
+    <div class="about-grid" id="about-body"></div>
+  </section>
+
+  <section id="experience">
+    <div class="section-head" id="experience-head"></div>
+    <div class="missions" id="experience-body"></div>
+  </section>
+
+  <section id="projects">
+    <div class="section-head" id="projects-head"></div>
+    <div class="missions" id="projects-body"></div>
+  </section>
+
+  <section id="publications">
+    <div class="section-head" id="publications-head"></div>
+    <div class="missions" id="publications-body"></div>
+  </section>
+
+  <section id="skills">
+    <div class="section-head" id="skills-head"></div>
+    <div class="modules" id="skills-body"></div>
+  </section>
+
+  <section id="contact" class="transmission">
+    <div id="contact-head"></div>
+    <div class="contact-links" id="contact-body"></div>
+  </section>
+
+</main>
+
+<footer>© <span id="year"></span> Disha Singh — built somewhere under the same sky as you.<br>Background: NASA/JPL-Caltech/UCLA (WISE)</footer>
+
+<script src="content.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
